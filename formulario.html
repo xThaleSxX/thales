@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>formulario</title>
+</head>
+<body>
+	<form>
+		<h1>formulario</h1>
+		<fieldset id="usuario"><legend><h2>cadastro de usuario</h2></legend>
+			<p><label for="cnome">nome : <input type="text" name="tnome" id="cnome" ></p></label> 
+			<p><label for="csobrenome"> sobrenome : <input type="text" name="tsobrenome" id="csobrenome"></p></label> 
+			<p><label for="cnacimento">nacimento : <input type="date" name="nacimento" id="cnacimento"></p></label> 
+			<p><label for="cidentidade">identidade :</p><input type="text" name="identidade" id="cidentidade"></label> 
+			<p><label for="cpf">CPF :<input type="text" name="tcpf" id="cpf" size="12" maxlength="12"></p></label> 
+			<fieldset id="sexo"><legend><h2>sexo</h2></legend>
+				<input type="radio" name="tsexo" id="cmasculino"> <label for="cmasculino">masculino</label><br>
+				<input type="radio" name="tsexo" id="cfeminino"> <label for="cfeminino">feminino</label>
+			</fieldset> 
+			<p><label for="cestado civil">estado civil : <input type="text" name="testado civil" id="cestado civil"></p></label> 
+			<p><label for="ctelefone fixo">telefone fixo:</p><input type="text" name="telefone" id="ctelefone fixo"></label>
+			<p><label for="ccelular">celular : <input type="text" name="celular" id="ccelular"></p></label> 
+			<p><label for="cemail">email : <input type="text" name="temail" id="cemail"></p></label> 
+			<p><label for="cendereço">endereço : <input type="text" name="tendereço" id="cendereço"></p></label> 
+		</fieldset>
+		<input type="image" src="img/enviar.png">
+	</form>
+</body>
+</html>
